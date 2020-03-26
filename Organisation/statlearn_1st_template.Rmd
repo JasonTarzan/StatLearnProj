@@ -1,0 +1,160 @@
+---
+title: "Statistical Learning Project"
+author: "1st Milestone"
+date: "Group ID and List of Group Members"
+output: html_document
+urlcolor: magenta
+linkcolor: cyan
+geometry: margin=1.25cm
+fontsize: 12pt
+header-includes:
+- \usepackage{bbold}
+- \usepackage{mdframed, xcolor}
+- \usepackage{graphicx}
+- \mdfsetup{frametitlealignment=\center}
+- \usepackage{multirow}
+- \definecolor{shadecolor}{rgb}{0.89,0.8,1}
+- \newcommand{\Prob}{\mathbb{P}}
+- \newcommand{\Exp}{\mathbb{E}}
+- \newcommand{\Var}{\mathbb{V}\mathrm{ar}}
+- \newcommand{\Cov}{\mathbb{C}\mathrm{ov}}
+- \newcommand{\blue}{\textcolor{blue}}
+- \newcommand{\darkgreen}{\textcolor[rgb]{0,.5,0}}
+- \newcommand{\gray}{\textcolor[rgb]{.3,.3,.3}}
+- \newcommand{\blueA}{\textcolor[rgb]{0,.1,.4}}
+- \newcommand{\blueB}{\textcolor[rgb]{0,.3,.6}}
+- \newcommand{\blueC}{\textcolor[rgb]{0,.5,.8}}
+- \newcommand{\evidenzia}{\textcolor[rgb]{0,0,0}}
+- \newcommand{\nero}{\textcolor[rgb]{0,0,0}}
+- \newcommand{\darkyel}{\textcolor[rgb]{.4,.4,0}}
+- \newcommand{\darkred}{\textcolor[rgb]{.6,0,0}}
+- \newcommand{\blueDek}{\textcolor[rgb]{0.6000000, 0.7490196, 0.9019608}}
+- \newcommand{\purpLarry}{\textcolor[rgb]{0.6901961, 0.2431373, 0.4784314}}
+- \newcommand{\lightgray}{\textcolor[rgb]{.8,.8,.8}}
+- \newcommand{\bfun}{\left\{\begin{array}{ll}}
+- \newcommand{\efun}{\end{array}\right.}
+---
+
+
+Research Title
+----------
+
+Twitter Sentiment Analysis and Classification of Political Persuasion
+
+----------
+
+
+Abstract
+----------
+
+We scrape tweets related to politics targeting (1) accounts of individuals with a known political affiliation and (2) a set of hashtags identifying a political theme. We label those tweets according to political affiliation of the account holder (1) or via a manual labelling process (2) with a binary partisanship label. After preprocessing the tweets, we represent in a _word_ feature space and construct predictive classification models using one, all or an ensemble of (penalised) regression, support vector machines and tree-based approaches.
+
+NB Our outcome of _partisanship_ is yet to be decided concretely. We could target party affiliation using tweets around the upcoming US election and current primary races. We would like however, to focus on environmentalist issues. 
+
+[To Complete: Eleftheria and others to complete]
+
+----------
+
+
+Main research aim \& framework
+----------
+
+Our main research aim is to train a model which can predict binary political partisanship labels. 
+
+Our framework will be as follows:
+
+1. Identify data sources from Twitter
+   - Accounts from which to pull tweets
+   - Hashtags, keywords or phrases for which we pull _all_ tweets within a selected time window (possibly retrospective)
+2. Write Twitter pipeline - possibly in a combination of R, Python and/or others (e.g. SQL)
+    - Use Twitter API
+    - Use NLTK; RVest in R
+3. Provide labels for data
+   - Provide binary labels for accounts which are assumed to have partisan opinions
+   - Manually label tweets which are pulled according to hastags or key phrases
+4. Data Cleaning and Preprocessing
+   - Clean initial data
+   - Build representations amenable to being fed into model e.g. bag-of-words document representations
+5. Statistical modelling for Classification
+   - Logistic Regression (GLM); Regression Trees; Ensemble Approaches; SVM; maybe Neural Networks?
+   - Build separate models using classified accounts versus classified tweets
+   - If time: experiment with multi-level models to take account of clustering of tweets within people
+
+*Please cite any paper, webpage, video, other kind of support material that 
+help in understading the feasibility and relevance of your work.
+List all the references in the last Section of this document.*
+
+----------
+
+
+Data source(s) 
+----------
+
+Twitter using a "twitterbot" leveraging [Tweepy](https://tweepy.readthedocs.io/en/latest/index.html) which allows scraping. 
+
+[To Complete: We are yet to formulate a list of accounts and hashtags. Need to propose these lists for the tasks we intend]
+
+----------
+
+Data collection
+----------
+
+- We will collect data via a twitterbot. 
+- Manual tweet labelling for tweets collected by targetting hashtags or phrases will require human input. 
+- Given a groupsize of five, we hope to be able to label ~1250 tweets manually
+- Combining these with the tweets collected by targeting accounts with known affiliations - which can be expediently labelled - results in an arbitrarily large sample size (e.g. 10^6). Tweets collected in the latter manner have the caveats that we 
+   - we have to identify individuals' political persuasions (relatively low manual time commitment)
+   - we are limited by the non-independence of tweets "within" accounts
+   
+**Potential difficulties**:
+- Converting tweets to numerical representations well suited to use as input for modelling requires additional preprocessing/programming time commitment
+
+**How "heavy" will the dataset be?**
+
+The dataset is likely to be a CSV containing at least columns for username, time, location, tweet text and a label. Additionally, there will be the numerical representations of these tweets which will be word vectors. 
+
+[To complete: We need to discuss how large these data structures are likely to be]
+
+*Explain how you are plannig to actually collect the data.*
+*How many data-points do you (realistically) hope to collect?*
+*Do you foresee any difficulty in the data collection process?*
+*Approximatively, how "heavy" do you think your dataset will be in the end?*
+
+----------
+
+Model \& Methods
+----------
+*To the best of your current knowledge, what type of statistical/data analysis tools do you feel will be relevant?*
+*Explain briefly why.*
+
+*If there's some cutting edge methods you may like to implement, cite it here adding the relevant paper(s)/book(s) in the last Section of this document.*
+
+----------
+
+
+Software/Hardware Toolkit
+----------
+*Tell me something about the software, programming language(s), package(s), module(s), framework(s) you're planning to use to handle/model/analyse your data and why.*
+*Are you also planning to use or develop [dedicated hardware](https://sciencejournal.withgoogle.com/developers/) for this task?*
+*If you feel your home-computer/laptop may not be enough to handle everything, explain to me why and what kind of resources you may instead need.*
+
+----------
+
+Project Timeline
+----------
+*Assuming I like and approve your proposal, detail how you are planning to organize your work in terms of sub-tasks completion.
+If you know what a [Gantt diagram](https://en.wikipedia.org/wiki/Gantt_chart) is, [use it](https://plot.ly/r/gantt/)!*
+
+----------
+
+
+References
+----------
+*List here all the reference cited above. If you know what it is, it will be very much appreciated if you use and then upload on Moodle a [.bib file](https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html#bibliographies).*
+*As an example:*
+
+- Lehmann, E. L. and Casella, G. (1998). *Theory of Point Estimation.* Springer-Verlag.
+- Hastie, T., Tibshirani, R. and Friedman, J. H. (2001). *The Elements of Statistical Learning: Data Mining, Inference, and Prediction.* Springer-Verlag.
+- Shen, X. and Wasserman, L. (2001). *Rates of convergence of posterior distributions.* The Annals of Statistics, **29**, pp. 687--714.
+
+----------
