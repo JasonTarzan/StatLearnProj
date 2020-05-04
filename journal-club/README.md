@@ -2,6 +2,7 @@
 
 - [Presentation on Google Slides](https://docs.google.com/presentation/d/1C8SewYulr1CkB7qcuimrjc6La-gb_5yinER-bR66K1k/edit#slide=id.g7705cb3155_18_24)
 - [Iason's code replicating the paper's results (Github repository)](https://github.com/JasonTarzan/Deep-Double-Descent-Where-Bigger-Models-and-More-Data-Hurts/blob/master/Deep-Double-Descent.ipynb)
+- [Overleaf Document](https://www.overleaf.com/project/5e97059c468a090001e75da6) - Submission straight after talk with slides. Maybe a short summary of the paper? (Possibly with the addition of key messages from Belkin's seminal paper?)
 
 ### Literature and Resources
 
