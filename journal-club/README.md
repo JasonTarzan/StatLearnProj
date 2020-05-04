@@ -11,7 +11,7 @@
 - [_Understanding “Deep Double Descent”_](https://www.lesswrong.com/posts/FRv7ryoqtvSuqBxuT/understanding-deep-double-descent) - Post at _LESSWRONG_ reviewing double deep descent phenomenon including background and the paper we're interested in
 - [Deep Double Descent: when more data is a bad thing](https://towardsdatascience.com/deep-double-descent-when-more-data-and-bigger-models-are-a-bad-thing-3a3f108d5538)
 
-- **[Belkin et al. (2019) Reconciling modern machine learning practice and the bias-variance trade-of](https://arxiv.org/pdf/1812.11118.pdf)**; link to [PDF](https://arxiv.org/pdf/1812.11118.pdf):
+- **[Belkin et al. (2019) Reconciling modern machine learning practice and the bias-variance trade-off](https://arxiv.org/abs/1812.11118)**; link to [PDF](https://arxiv.org/pdf/1812.11118.pdf):
 
 > ...we reconcile the classical understanding and the modern practice within a unified performance curve. This "double descent" curve subsumes the textbook U-shaped bias-variance trade-off curve by showing how increasing model capacity beyond the point of interpolation results in improved performance. We provide evidence for the existence and ubiquity of double descent for a wide spectrum of models and datasets, and we posit a mechanism for its emergence. This connection between the performance and the structure of machine learning models delineates the limits of classical analyses, and has implications for both the theory and practice of machine learning.
 
