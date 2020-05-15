@@ -1,0 +1,8 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Ignore user-specific keys for Twitter API
+
+api_keys.R

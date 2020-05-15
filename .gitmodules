@@ -1,3 +1,6 @@
 [submodule "journal-club/Deep-Double-Descent-Where-Bigger-Models-and-More-Data-Hurts"]
 	path = journal-club/Deep-Double-Descent-Where-Bigger-Models-and-More-Data-Hurts
 	url = git@github.com:JasonTarzan/Deep-Double-Descent-Where-Bigger-Models-and-More-Data-Hurts.git
+[submodule "Anil/twint"]
+	path = Anil/twint
+	url = https://github.com/twintproject/twint.git
