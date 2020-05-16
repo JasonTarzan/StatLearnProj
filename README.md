@@ -37,8 +37,7 @@ NLP classification task regarding sentimental wrt veganism, environmental protec
 - [Machine Learning, NLP: Text Classification using scikit-learn, python and NLTK by Javed Shaikh](https://towardsdatascience.com/machine-learning-nlp-text-classification-using-scikit-learn-python-and-nltk-c52b92a7c73a)
 - [Text Classification in Python: Learn to build a text classification model in Python by Miguel Fernández Zafra](https://towardsdatascience.com/text-classification-in-python-dd95d264c802)
 
+#### Dataset
 
-#### Scraping Twitter
-
-- [How to use Twitter’s Search REST API most effectively.](https://bhaskarvk.github.io/2015/01/how-to-use-twitters-search-rest-api-most-effectively./) - Blog post from Bhaskar Karambelkar's Blog. He mentions rates limits on Twitter scraping and how to get around them using the Twitter API/Tweepy
+- [Accounts scraped](https://drive.google.com/drive/u/0/shared-with-me)
 

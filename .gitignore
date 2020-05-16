@@ -6,3 +6,7 @@
 # Ignore user-specific keys for Twitter API
 
 api_keys.R
+
+# Ignore data/ 
+
+data/
