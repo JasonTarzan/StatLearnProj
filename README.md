@@ -39,5 +39,5 @@ NLP classification task regarding sentimental wrt veganism, environmental protec
 
 #### Dataset
 
-- [Accounts scraped](https://drive.google.com/drive/u/0/shared-with-me)
+- [Accounts scraped](https://docs.google.com/spreadsheets/d/1ilJNgGtmqJOyKxPdyGG15D4QdVMbmXjxbKZ0YyfNRHM/edit?usp=sharing)
 

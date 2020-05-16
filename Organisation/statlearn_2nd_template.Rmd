@@ -105,9 +105,10 @@ Depending on the ability of an approach in this initial step to handle these iss
 **Modelling**
 
 We will experiment with a variety of modelling techniques including:
-- **Logistic regression** models with and without penalties
-- **Support Vector Machines** 
-- Tree classification methods such as the **CART and CHAID Algorithms**
+
+- **Logistic regression** models with and without penalties  
+- **Support Vector Machines**   
+- Tree classification methods such as the **CART and CHAID Algorithms**  
 
 We may also use other classification methods such as **KNN** and  **Discriminant Factorial Analysis** and plan to try some ensemble classification methods including:
 
@@ -165,16 +166,16 @@ References \underline{update}
 
 **Modelling**
 
-- KLEINBAUM, D., KLEIN, M., *Logistic regression : a self-learning text (3rd ed.)*, Springer, 2010
-- Agresti A., *Categorical Data Analysis (3rd ed.)*, WILEY & Sons, 2012
-- Hosmer D.W., Lemeshow S., *Applied Logistic Regression (3rd ed.)*, WILEY & Sons, 2013
-- James et al. (2013) An Introduction to Statistical Learning with Applications in R. 8th Edition. Springer; "ISLR"
+- Kleinbaum, D., Klein, M., Logistic regression: a self-learning text (3rd ed.), Springer, 2010
+- Agresti A., Categorical Data Analysis (3rd ed.), Wiley & Sons, 2012
+- Hosmer D.W., Lemeshow S., Applied Logistic Regression (3rd ed.), Wiley & Sons, 2013
+- James et al. (2013) An Introduction to Statistical Learning with Applications in R. 8th Edition. Springer
 - Murphy K. (2012) Machine Learning A Probabilistic Perspective
-- Hastie T., Tibshirani R. and Friedman J. (2009) The Elements of Statistical Learning. Springer; "ESL"
+- Hastie T., Tibshirani R. and Friedman J. (2009) The Elements of Statistical Learning. Springer
 
 **Software**
 
 - https://xgboost.readthedocs.io/en/latest/
-- Steven Bird, Ewan Klein and Edward Loper (2009) Natural Language Processing with Python; "The NLTK Book"
+- Steven Bird, Ewan Klein and Edward Loper (2009) Natural Language Processing with Python
 
 ----------

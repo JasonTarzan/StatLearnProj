@@ -9,4 +9,4 @@ api_keys.R
 
 # Ignore data/ 
 
-data/
+# data/ # Unnecessary as file sizes are small
