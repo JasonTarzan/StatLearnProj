@@ -23,7 +23,11 @@
 
 5. *Simple_Classifiers_GooglePretrained.ipynb* :
     - __Train simple models of classification__ such as Decision Tree, Support Vector Machines and Multilayey Perceptron.
-    - __Text pretrained model__ : GoogleNews 300... I can't process larger model (in data size)
+    - __Text pretrained model__ : GoogleNews 300...
+
+6. *Simple_Classifiers_FastText-wiki.ipynb* :
+    - __Train simple models of classification__ such as Decision Tree, Support Vector Machines and Multilayey Perceptron.
+    - __Text pretrained model__ : FastText Wiki 300...
 
 ## Concerns
 1. Is the word embeding good for personalized CBOW, personalized Skip Gram and pretrained model...
