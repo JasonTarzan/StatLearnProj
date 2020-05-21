@@ -32,3 +32,4 @@
 4. Find why Simple BOW perform that good
 5. Improve trained model by collect more tweets, maybe on other topics...
 6. __Improve the tokenizer by removing noise...__ ==> didn't improved much the accuracy
+7. __Pretrained Models__ ==> did GoogleNews300, next is Bert!
