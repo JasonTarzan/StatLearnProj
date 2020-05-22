@@ -2,7 +2,7 @@
 title: "Statistical Learning Project"
 author: "2nd Milestone"
 date: "Group 7: Mathieu Grasland, Felicie Bizeul, Eleftheria Tetoula Tsonga, Iason Tsardanidis and Anil Keshwani"
-output: html_document
+output: pdf_document
 urlcolor: magenta
 linkcolor: cyan
 geometry: margin=1.25cm
@@ -48,7 +48,7 @@ Classifying Climate Change Attitudes with Twitter
 Abstract \underline{update}
 ----------
 
-We scrape tweets related to climate change selecting only those authored by individuals with a known position on climate action and containing the one or more keyword strings. We labelled the tweets according to the known positions of the account holders using a binary label reflecting "believer" or "denier" status or pro-/anti-climate action. After data cleaning, we represent tweets in a word vector space and construct predictive classification models using one, all or an ensemble of (penalised) regression, support vector machines, naive Bayes, tree-based approaches and neural networks.
+We scrape tweets related to climate change selecting only those authored by individuals with a known position on climate action and containing one or more keyword strings. We labelled the tweets according to the known positions of the account holders using a binary label reflecting "believer" or "denier" status or pro-/anti-climate action. After data cleaning, we represent tweets in a word vector space and construct predictive classification models using one, all or an ensemble of (penalised) regression, support vector machines, naive Bayes, tree-based approaches and neural networks.
 
 ----------
 
@@ -79,7 +79,7 @@ Our main research aim is to train a model which can predict binary attitude labe
 Data collection \& source(s) 
 ----------
 
-We created a [list](https://docs.google.com/spreadsheets/d/1ilJNgGtmqJOyKxPdyGG15D4QdVMbmXjxbKZ0YyfNRHM/edit#gid=0) of user accounts for which we could also identify clear attitudes: believers or deniers of climate change. We scraped tweets from these accounts filtering only for the relevant ones by requiring tweets to contain one of the substrings "climate" or "global warming". A balanced dataset of ~10k tweets was compiled and is submitted as a CSV with fields:
+We created a [list](https://docs.google.com/spreadsheets/d/1ilJNgGtmqJOyKxPdyGG15D4QdVMbmXjxbKZ0YyfNRHM/edit#gid=0) of user accounts for which we could also identify clear attitudes: believers or deniers of climate change. We scraped tweets from these accounts filtering only for the relevant ones by requiring tweets to contain one of the substrings "climate" or "global warming". A balanced dataset of ~10k tweets was compiled and is submitted as a CSV with the core fields:
 
 - Twitter Username
 - Timestamp
