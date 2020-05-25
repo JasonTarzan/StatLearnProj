@@ -2,7 +2,7 @@
 
 ## What is inside ?
 
-1. *SL_project.ipynb* :
+1. *[SL_project.ipynb](https://github.com/anilkeshwani/StatLearnProj/blob/master/Iason/SL_project.ipynb)* :
     - A first __draft__ of the final project.
 
 2. *climate_change_tweets_sample-2020-05-16-17-57.csv* :
