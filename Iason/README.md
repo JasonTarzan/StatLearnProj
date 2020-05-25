@@ -1,7 +1,5 @@
 # J REPOSITORY 
 
-## What is inside ?
-
 1. *[SL_project.ipynb](https://github.com/anilkeshwani/StatLearnProj/blob/master/Iason/SL_project.ipynb)* :
     - A first __draft__ of the final project.
 
