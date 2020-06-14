@@ -17,7 +17,7 @@ from nltk.stem import PorterStemmer,SnowballStemmer  # stemming
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 from sklearn.base import BaseEstimator, TransformerMixin
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+
 
 
 class CleanText(BaseEstimator, TransformerMixin):
