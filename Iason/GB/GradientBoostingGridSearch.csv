@@ -1,0 +1,9 @@
+scenario,accuracy,auc,params
+BOW,0.9000555247084953,0.96463806120832,"{""learning_rate"": 0.3, ""loss"": ""exponential"", ""max_depth"": 15, ""max_features"": ""sqrt"", ""subsample"": 0.9105364527646858}"
+BOW_scaled,0.9000555247084953,0.96463806120832,"{""learning_rate"": 0.3, ""loss"": ""exponential"", ""max_depth"": 15, ""max_features"": ""sqrt"", ""subsample"": 0.9105364527646858}"
+BIGRAMS,0.9058856191004997,0.9672883536014967,"{""learning_rate"": 0.3, ""loss"": ""exponential"", ""max_depth"": 15, ""max_features"": ""sqrt"", ""subsample"": 0.9105364527646858}"
+BIGRAMS_scaled,0.9000555247084953,0.96463806120832,"{""learning_rate"": 0.3, ""loss"": ""exponential"", ""max_depth"": 15, ""max_features"": ""sqrt"", ""subsample"": 0.9105364527646858}"
+FBOW,0.9006107717934481,0.9631526131362236,"{""learning_rate"": 0.3, ""loss"": ""exponential"", ""max_depth"": 15, ""max_features"": ""sqrt"", ""subsample"": 0.9105364527646858}"
+FBOW_scaled,0.9006107717934481,0.9631526131362236,"{""learning_rate"": 0.3, ""loss"": ""exponential"", ""max_depth"": 15, ""max_features"": ""sqrt"", ""subsample"": 0.9105364527646858}"
+TF_IDF,0.8914491948917268,0.9585985063411493,"{""learning_rate"": 0.3, ""loss"": ""exponential"", ""max_depth"": 15, ""max_features"": ""sqrt"", ""subsample"": 0.9105364527646858}"
+TF_IDF_scaled,0.8914491948917268,0.9585985063411493,"{""learning_rate"": 0.3, ""loss"": ""exponential"", ""max_depth"": 15, ""max_features"": ""sqrt"", ""subsample"": 0.9105364527646858}"
