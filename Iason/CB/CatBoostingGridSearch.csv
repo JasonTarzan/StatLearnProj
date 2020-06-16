@@ -1,0 +1,5 @@
+scenario,accuracy,auc,params
+BOW_scaled,0.9083842309827873,0.9689622981490287,"{""border_count"": 20, ""depth"": 9, ""l2_leaf_reg"": 10, ""learning_rate"": 0.3, ""n_estimators"": 1000}"
+BIGRAMS_scaled,0.9083842309827873,0.9689622981490287,"{""border_count"": 20, ""depth"": 9, ""l2_leaf_reg"": 10, ""learning_rate"": 0.3, ""n_estimators"": 1000}"
+FBOW_scaled,0.9089394780677401,0.9684707696279143,"{""border_count"": 200, ""depth"": 7, ""l2_leaf_reg"": 5, ""learning_rate"": 0.3, ""n_estimators"": 500}"
+TF_IDF_scaled,0.9058856191004997,0.9643827922526033,"{""border_count"": 5, ""depth"": 9, ""l2_leaf_reg"": 5, ""learning_rate"": 0.1, ""n_estimators"": 500}"
