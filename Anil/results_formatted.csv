@@ -1,0 +1,5 @@
+"","Cat Boosting (CB)","Gradient Boosting (GB)","Light Gradient Boosting (LGB)","Logistic Regression (Elastic Net)","Naive Bayes (NB)","Random Forests (RF)","Support Vector Machines (SVM)"
+"Bag-of-Words",0.913,0.9,0.905,0.91,NA,0.903,0.904
+"Bag-of-Words - Frequencies",0.913,0.901,0.904,0.912,NA,0.902,0.903
+"Bag-of-Words (bigrams)",0.913,0.906,0.905,0.92,NA,0.902,0.91
+"Term Frequency–Inverse Document Frequency (TF-IDF)",0.906,NA,0.9,0.915,NA,0.899,0.909

@@ -1,0 +1,5 @@
+"Embedding"	"Cat Boosting (CB)"	"Gradient Boosting (GB)"	"Light Gradient Boosting (LGB)"	"Logistic Regression (Elastic Net)"	"Naive Bayes (NB)"	"Random Forests (RF)"	"Support Vector Machines (SVM)"
+"1"	"Bag-of-Words"	"0.913104"	"0.900056"	"0.905053"	"0.9098"	""	"0.902957181"	"0.903942254"
+"2"	"Bag-of-Words - Frequencies"	"0.913104"	"0.900611"	"0.903942"	"0.9117"	""	"0.901985297"	"0.903387007"
+"3"	"Bag-of-Words (bigrams)"	"0.913104"	"0.905886"	"0.905053"	"0.9203"	""	"0.901985297"	"0.910327596"
+"4"	"Term Frequency–Inverse Document Frequency (TF-IDF)"	"0.905886"	""	"0.900056"	"0.9153"	""	"0.89865312"	"0.909217102"
